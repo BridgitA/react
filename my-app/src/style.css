@@ -2,6 +2,7 @@ body{
     background-color: blanchedalmond;
 }
 .todo-list{
+    background-color: white;
     margin: auto;
     width: 50%;
     display: flex;
@@ -28,5 +29,14 @@ body{
     font-weight: 100;
     font-size: 15px;
     color: #333333;
-    
+
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox] {
+    outline: 0;
 }
